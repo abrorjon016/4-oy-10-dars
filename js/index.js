@@ -217,8 +217,6 @@
 //   console.log(res);
 // }
 
-// qiyin masalarni qolganiga qiynaldim, Ulugbek ustozdan soramoqchi edim lekin dedline yaqin edi
-
 // jarima masalalar
 
 // 1 - masala
@@ -229,4 +227,70 @@
 // let arr = [1, 2, 3];
 // console.log(arr);
 
-// ustoz men xozirda functionga toliq tushnmadim ozgina qiyinlik qildi sizdan soramqochi edim lekin deadline yaqin, shuyerdagi bor masalarni tekshirib bera qoling, men functionni ozim organib takrorlab chiqaman, togrisi qiyinlik qildi function .
+// 2 - masala;
+// let bugatti = [1, 2, "veyron"];
+// let bugatata = [1, 2, "shiron"];
+// let newarr = bugatti.concat(bugatata);
+// let res = [];
+// for (let i = 0; i < newarr.length; i++) {
+//   if (typeof newarr[i] == "number") {
+//     res.push(newarr[i]);
+//   }
+// }
+// console.log(res);
+
+// 3-masala
+// let bugatti = [1, 2, 3, 4, 5];
+// let oldcar = 6;
+// let newcar = "tourbillion";
+// let search = bugatti.indexOf(oldcar);
+// if (search !== -1) {
+//   bugatti.splice(search, 1);
+// } else {
+//   bugatti.push(newcar);
+// }
+// console.log(bugatti);
+
+// 4-masala
+// let massiv = [1, 2, 3, 4, 3, 5, 6];
+// let bugatata = 2;
+// let car = massiv.indexOf(bugatata);
+// let lastcar = massiv.lastIndexOf(bugatata);
+// let bugatti = [];
+// if (car !== -1 && lastcar !== -1 && car < lastcar) {
+//   bugatti = massiv.slice(car, lastcar + 1);
+// }
+// console.log(bugatti);
+
+// 5-masala
+// ???
+
+// 6-masala
+// let bugatti = [1, 2, 3, 4, 5];
+// let res = bugatti.map((num) => num * 2).join(", ");
+// console.log(res);
+
+// 7-masla
+// let bugatti = ["shiron", "veyron"];
+// let bugatata = ["tourbillion", "v17"];
+// let chevy = ["porsche", "bentley"];
+// let res = [...bugatti, ...bugatata, ...chevy].join("-").toUpperCase();
+// console.log(res);
+
+// 8-masala
+// let bugatti = ["shiron", "tourbillion", "veyron","ceondeci"];
+// bugatti.shift();
+// bugatti.pop();
+// let res = bugatti.join(";");
+// console.log(res);
+
+// 9-masala
+// ?
+
+// 10-masala
+// let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+// arr.reverse();
+// arr.splice(0, 3);
+// arr.splice(-2);
+// arr.sort((a, b) => a - b);
+// console.log(arr);
